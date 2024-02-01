@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+  </style>
+  <title> Text Converter  </title>
+</head>
+<body>
+  <h1>Enter text to convert below</h1>
+
+  <textarea id="inputText" rows="5" cols="50"></textarea><br>
+
+  <button id="encode" class="buttons" onclick="encodeText()">Encode</button>
+
+  <button id="decode" class="buttons" onclick="decodeText()">Decode</button>
+
+  <button id="clear" class="buttons" onclick="clearText()">Clear</button><br><br>
+
+  <textarea id="outputText" rows="5" cols="50" readonly></textarea>
+
+  <script src="script.js"></script>
+</body>
+</html>
